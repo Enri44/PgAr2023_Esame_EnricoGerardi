@@ -3,11 +3,15 @@ import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import java.io.FileInputStream;
-import java.nio.file.*;
 import java.util.ArrayList;
 
 public class Reader {
-
+    /**
+     * Attraverso un XMLStreamReader legge tutte le informazioni sulle mappe
+     * memorizzate sul file XML fornito e le memorizza in due mappe diverse
+     * @param mappa1 dove memorizzare la mappa 1
+     * @param mappa2 dove memorizzare la mappa 2
+     */
     public static void leggi_mappe(ArrayList<Nodo> mappa1, ArrayList<Nodo> mappa2) {
         FileInputStream file;
         XMLInputFactory input = XMLInputFactory.newInstance();

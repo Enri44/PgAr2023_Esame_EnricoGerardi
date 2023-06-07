@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="kibofplib-1.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../KiboUniBSFpLib-main/KiboUniBSFpLib-main/target/kibofplib-1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
